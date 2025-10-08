@@ -1,0 +1,67 @@
+/* العنوان الرئيسي */
+.cart-title {
+    display: grid;
+    justify-content: center;
+    margin: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.highlight {
+    color: rosybrown;
+    margin: 0 0 0 -25px;
+}
+
+/* زر الطلب */
+.checkout-container {
+    display: flex;
+    justify-content: center;
+}
+
+.order a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* تنسيق الفوتر */
+.footer-wrapper {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.frow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fcol h4 {
+    margin-bottom: 10px;
+}
+
+.fcol ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fcol ul li {
+    margin-bottom: 5px;
+}
+
+.fcol ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sociall a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: inherit;
+}
+
+/* حقوق النشر */
+.copyright {
+    text-align: center;
+    color: rgb(93, 94, 95);
+    margin-top: 20px;
+}

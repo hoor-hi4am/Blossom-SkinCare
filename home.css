@@ -1,0 +1,219 @@
+/*home style*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(187, 142, 142);
+    color: aliceblue ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 11%;
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+nav .dropdown{
+    display: inline-block;
+}
+nav ul{
+    margin: 0px 150px 0px 0px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    
+}
+nav ul li a:hover{
+    color: rgba(98, 53, 74, 0.721);
+    transition: all 0.50s ease;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 15px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+.sm1{
+    display: none;
+    position: absolute;
+    background-color: rgba(187, 142, 142, 0.953);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 15%;
+  }
+  .dropdown:hover .sm1 {
+    display: block;
+  }
+nav ul li:hover .sm1{
+    display: block;
+    position: absolute;
+    background: rgba(187, 142, 142, 0.712);
+    margin: 0px 900px 0px -15px;
+
+}
+ .sm1 ul{
+    display: block;
+    margin: 30px 40px 30px 30px;
+}
+ .sm1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: center;
+}
+ .sm1 ul li:last-child{
+    border-bottom: none;
+}
+ .sm1 ul li a:hover{
+color: rgba(98, 53, 74, 0.721);
+}
+.ccon ul li{
+    display: inline-flex;
+    padding: 10px;
+    width: 40px;
+    margin-right: 10px;
+}
+.ccon a{
+    color: #fff;
+    text-decoration: none;
+      padding: 10px;
+      transition: all 0.50s ease;
+}
+.ccon ul li a:hover{
+    color:rgba(98, 53, 74, 0.721) ;
+    z-index: -10vh;
+  
+}
+.logo a{
+   display: flex;
+   width: 40vh;
+   height: 30vh;
+   margin: 0px 0px 0px 10px;
+   cursor: pointer;
+}
+.first_section{
+    display: inline-block;
+    margin-top: 30px;
+    padding-bottom: 10vh;
+    border-bottom: 1px solid rgb(187, 142, 142);
+    
+}
+.home_brief{
+    max-width: 90vh;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+
+.embrace {
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10vh;
+  }
+.butter{
+    display:flex;
+    width: 90%;
+    height: 90%;
+    margin: -75vh 0 10px 135vh;
+}
+.home-start{
+    width: 45%;
+    height: 8vh;
+    border-radius: 30px;
+    border-style: solid;
+    margin-top: 10vh;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    background-color: #fff;
+    border: .2rem solid rgb(164, 124, 124);
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 30vh 0vh 0vh 0vh;
+    padding: 70px 0px;
+    background-color: rgb(164, 124, 124);
+}
+.fcol{
+    width: 25%;
+    padding: 0 15px;
+}
+.fcol h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.fcol .sociall a{
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   margin: 10px 10px 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50px;
+   color: rgba(98, 53, 74, 0.721);
+   transition: all 0.5s ease;
+}
+.fcol .sociall a:hover{
+    color: rgba(255, 255, 255, 0.721);
+
+}
+.fcol ul{
+    list-style: none; 
+}
+.fcol ul li:not(:last-child){
+    margin-bottom: 15px;
+    
+}
+.fcol ul li a{ 
+     text-decoration: none;
+     color: wheat;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.fcol ul li a:hover{
+    padding-left: 6px;
+    color: rgba(98, 53, 74, 0.721);
+}
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,408 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <title>start shopping</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Corinthia:wght@700&display=swap" rel="stylesheet">
+        
+<!-- ***************************  RAWAN CSS   *********************  -->
+
+
+<!-- ***************************   REVIEW *************************-->
+
+
+        <style>
+          body {
+            font-family: "Cormorant Garamond", serif;
+            margin: 0; background: #ffffff;
+          }
+          .testimonial-section {
+            padding: 60px 80px; text-align: center;
+          }
+          .testimonial-section h2 {
+            font-size: 6vh; margin-bottom: 50px;
+          }
+          .testimonial-section .our {
+            font-family: "Corinthia", cursive; color: #b67b7b; font-size: 7vh;
+          }
+          .testimonial-grid {
+            display: flex; gap: 30px; justify-content: center;
+          }
+          .testimonial-card {
+            background: #fff; border-radius: 12px; width: 260px;
+            padding: 20px; box-shadow: 0 0 10px rgba(180,130,130,0.15);
+            text-align: left;
+          }
+       
+          .testimonial-card p {
+            font-size: 15px; color: #444;
+          }
+          .stars {
+            color: gold; font-size: 16px; margin: 10px 0;
+          }
+          .user-name {
+            font-size: 18px; font-weight: bold; color: #7e5d5d;
+          }
+          .dots span {
+            display: inline-block; width: 8px; height: 8px;
+            background: #d9b1b1; border-radius: 50%; margin: 5px;
+          }
+          .dots .active { background: #b67b7b; }
+          .add-review-btn button {
+            margin-top: 30px; padding: 10px 25px; border-radius: 25px;
+            font-size: 18px; border: 1px solid #a47c7c;
+            font-family: "Cormorant Garamond", serif;
+            background: #fff; cursor: pointer;
+          }
+          .add-review-btn button:hover {
+            background: #f4e1e1;
+          }
+          .user-img{
+              width:25px;
+              height: 40px;
+              display:flex;
+          }
+
+
+/*  ************** RAWAN    CATEGORY  ***************************  */
+
+          .product-category {
+      padding: 60px 80px;
+      text-align: left;
+    }
+
+    .product-category h2 {
+      font-size: 7vh;
+      font-weight: 500;
+      margin-bottom: 60px;
+      line-height: 1.2;
+    }
+
+    .product-category h2 .our {
+      font-family: "Corinthia", cursive;
+      font-size: 8vh;
+      font-weight: 700;
+      color: #b67b7b;
+      margin-right: 10px;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 60px 80px;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    .category-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .category-item .icon {
+      width: 130px;
+      height: 130px;
+      background-color: #f6e3e3;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .category-item .icon img {
+      width: 130px;
+      height: 130px;
+    }
+
+    .category-item p {
+      font-size: 24px;
+      color: #b67b7b;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .category-item:hover .icon {
+      transform: scale(1.05);
+    }
+        </style>
+    
+    </head>
+    <body>
+      <header>
+        <div class="logo">
+            <a href="home.html"><img src="img/1000120950-removebg-preview.png">
+        </a></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <div class="dropdown">
+                <li style="display: inline-flex;"> <button class="dropbtn"><a href="#">categories</a>
+                </button></li>
+                <div class="sm1">
+                    <div class="sm2">
+                      <ul>
+                        <li><a href="haircare.html">hair-care</a></li>
+                        <li><a href="babycare.html">baby-care</a></li>
+                        <li><a href="skincare.html">skin-care</a></li>
+                    </ul>
+                    <div class="smimg"> 
+                        <img src="img/bca6da1e8ffd9431d66adb6f9d0e6319.jpg">
+                    </div>
+                </div>
+                </div>
+            </div>
+                </li>
+                <li><a href="products.html">start shopping</a></li>
+    
+            </ul>
+        </nav>
+        <div class="ccon">
+            <ul>
+                <li><a href="favourit.html"><i class="bi bi-heart-fill"></i></a></li>
+                <li><a href="cart.html"><i class="bi bi-bag-fill"></i></a></li>
+                <li><a href="login.html"><i class="bi bi-person-fill"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+<!--    **************** BASANT  FIRST SECTION **********************************-->
+
+
+    <div class="first_section"> 
+      <div style="display: inline-flex;" >
+    <div class="home_brief">
+     
+        <h1 class="embrace">  EMBRACE THE SCIENCE OF HEALTHY</h1>
+     
+        <h2 class="embrace">SKIN <i  class="medd"> with</i></h2>
+        <br>
+        <h1 style="font-size: 10vh; font-weight: 500;">BLOSSOM SKIN CARE</h1>
+        <div style="color: yellow; margin-bottom: 30px; margin-top: 20px;">
+        <h1><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+        </h1></div>
+        <h4  style="font-size: 30px; font-weight: 500;">  <i  class="medd" style="color: rosybrown;">our </i>philosophy</h4>
+        <p style="max-width: 80vh;">Our team of skincare experts including dermatologists and scientists isdedicated to unraveling the
+            mysteries of healthy skin and translating scientifi  breakthroughs into effective skincare solutions.</p>
+        
+        <a href="products.html"><button class="home-start">Start shopping</button>
+        </a></div>
+         <div class="butter">
+            <img src="img/Untitled.png">
+        </div> 
+        </div> 
+
+        
+        </div>
+
+        <img style="margin: -3vh 0px 0vh 160vh; height: 6vh;" src="img/star.png">
+
+
+
+
+
+        <!--  *************************   RAWAN    CATEGORY *************************-->
+
+
+
+
+        <section class="product-category" style="border-bottom: 1px solid rosybrown; padding: 20vh;">
+            <h2><span class="our">our</span> PRODUCT <br> CATEGORY</h2>
+            
+            <div class="category-grid">
+              <div class="category-item">
+                <a href="skincare.html"> <div class="icon"><img src="img/photo1.png" alt="Skin Care"></div>
+                </a><p>Skin Care</p>
+              </div>
+              <div class="category-item">
+               <a href="haircare.html">  <div class="icon"><img src="img/Untitled (1).png" alt="Hair Care"></div>
+               </a> <p>Hair Care</p>
+              </div> 
+                <div class="category-item">
+                  <a href="babycare.html"> <div class="icon"><img src="img/baby 1.png" alt="Baby Care"></div>
+                  </a> <p>Baby Care</p> </div>
+             
+            </div>
+          </section>
+          <img src="img/star.png"  style="height: 6vh; margin: -3vh 0 0 10vh;">
+           
+        
+        
+        <!--  ******************       BASANT   BESTSELLER    *************** -->      
+        
+        
+        <h1 style="font-size: 50px; margin-top: 25vh; margin-left: 85vh;"><i style="font-weight: 100;"> our</i><em style="color: rgb(146, 92, 111);"> Bestsellers</em></h1>
+
+            <section style="border-bottom: 1px solid rosybrown; padding-bottom: 20vh;">
+                <div class="new-content">
+                <div class="row"  >
+                    <img src="img/64cce452-40c5-4563-a90a-bd68f6062c08.jpg">
+                    <h4>o’clearien serum</h4>
+                    <h5>$399.99</h5>
+                 
+                   
+                    <div class="htop">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <div class="bbtn">
+                        <a href="#" style="width: 36.9vh;">add to cart</a>
+                    </div>
+                </div>
+        
+                <div class="row"  >
+                    <img src="img/17772c23-9e9f-4645-8494-108e191b67c6.jpg">
+                    <h4>kor rejuvenation oil</h4>
+                    <h5>$625.50</h5>
+                    <div class="htop">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <div class="bbtn">
+                        <a href="#" style="width: 40.6vh;">add to cart</a>
+                    </div>
+                </div>
+        
+                <div class="row" >
+                    <img src="img/84922f445bcbe077bdef3c4fdd11d99c.jpg">
+                    <h4>logona aloe gel</h4>
+                    <h5>$110.99</h5>
+                    <div class="htop">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <div class="bbtn">
+                        <a href="#" style="width: 36.9vh;">add to cart</a>
+                    </div>
+                </div>
+        
+                <div class="row" >
+                    <img src="img/Arkhelm Skincare Packaging Design.jpg">
+                    <h4>arkhelm cleanser</h4>
+                    <h5>$245.10</h5>
+                    <div class="htop">
+                        <i class="bi bi-heart-fill"></i>
+                    </div>
+                    <div class="bbtn">
+                        <a href="#" style="width: 36.9vh;" >add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <img style="margin: 20vh 0px -23vh 135vh; height: 6vh;" src="img/star.png">
+            </section>
+
+
+
+            <!--   ******************************* BASANT  SKIN CARE MATTER   ******************************-->
+
+            <section style="padding-bottom: 25vh; border-bottom: 1px solid rosybrown;">
+                <div>
+                    <h1 style="text-transform: uppercase; font-size: 8vh; font-weight: 500; margin-left: 10vh; margin-top: 19vh;">why skin care</h1>
+                    <h1 style="text-transform: uppercase; font-size: 8vh;  font-weight: 500; margin-left: 60vh; margin-bottom: 5vh;">matters?</h1>
+                    <p style="margin-left: 10vh; font-size: 3vh; margin-bottom: 10vh; max-width: 90vh;">Taking care of your skin isn't just about beauty  it's essential for long-term health and radiance. Key benefits include:</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <img src="img/why1.png" style="background-color: rgb(146, 92, 111); border-radius: 20px; padding-right: 90vh; margin-left: 8vh;" >
+                    <p style="margin-left: -89vh; color: white; font-size: 21px; max-width: 80vh; margin-top: 10px;;" >Deep Hydration: Helps keep the skin soft, 
+                        smooth, and elastic, preventing dryness</p>
+                </div>
+            <br>
+                <div style="display: inline-flex; margin-top: 7vh; margin-left: 100vh;">
+                    <img src="img/why2.png" style="background-color: rgb(224, 110, 150); border-radius: 20px; padding-right: 90vh; margin-left: 8vh;" >
+                    <p style="margin-left: -89vh; color: white; font-size: 21px; max-width: 80vh; margin-top: 10px;;" >Anti-Aging Protection: Antioxidant-rich products
+                        reduce the appearance of fine lines and wrinkles.
+                       </p>
+                </div>
+                <br>
+                <div style="display: inline-flex; margin-top: 7vh;">
+                    <img src="img/why 3.png" style="background-color: rgb(224, 110, 150); border-radius: 20px; padding-right: 90vh; margin-left: 8vh;" >
+                    <p style="margin-left: -89vh; color: white; font-size: 21px; max-width: 80vh; margin-top: 10px;;" >Anti-Aging Protection: Antioxidant-rich products
+                        reduce the appearance of fine lines and wrinkles.
+                       </p>
+                </div>
+            </section>
+            <img src="img/star.png" style="margin: -3vh 0vh 10vh 30vh; height: 6vh;">
+
+
+       
+
+
+
+
+<!--  *************************** RAWAN  REVIEW  *****************************-->
+
+            <section class="testimonial-section">
+                <h2>WHAT <span class="our">our</span> CUSTOMER SAYS...</h2>
+                <div class="testimonial-grid">
+                  <div class="testimonial-card">
+                    <div class="user-img">
+                        <img src="img/pngwing.com (1).png">
+                    </div>
+                    <p>"It is a long established fact that a reader will be distracted by the readable content."</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="user-name">Maria</div>
+                  </div>
+                  <div class="testimonial-card">
+                    <div class="user-img">
+                        <img src="img/pngwingm.png">
+                    </div>
+                    <p>"It is a long established fact that a reader will be distracted by the readable content."</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="user-name">Rawan</div>
+                  </div>
+                  <div class="testimonial-card">
+                    <div class="user-img">
+                        <img src="img/pngwing.com (2).png">
+                    </div>
+                    <p>"It is a long established fact that a reader will be distracted by the readable content."</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="user-name">Basant</div>
+                  </div>
+                </div>
+              </section>
+
+</div>
+
+
+
+
+
+        
+<footer>
+    <div  style="  max-width: 1170px; margin: auto;">
+        <div class="frow">
+         <div class="fcol">
+            <h4>our policy</h4> 
+            <ul>
+                <li><a href="#">policy</a></li>
+                <li><a href="#">shipping policy</a></li>
+                <li><a href="#">return & exchange policy</a></li>
+                <li><a href="#">terms & conditions</a></li>
+            </ul>  
+         </div>
+         <div class="fcol">
+            <h4>quick links</h4> 
+            <ul>
+                <li><a href="https://www.cerave.com/skin-smarts/skincare-tips-advice/what-skin-type-do-i-have#:~:text=If%20your%20skin%20appears%20shiny,you%20probably%20have%20combination%20skin.">how to know your skin type</a></li>
+                <li><a href="https://haircode.com/articles/hair-care-routine-hair-type/">find the right hair routine</a></li>
+                <li><a href="https://www.sinyderm.com/blog/the-ultimate-guide-to-skincare-for-different-skin-types">find the right skin care</a></li>
+            </ul>  
+         </div><div class="fcol">
+            <h4>social media</h4> 
+            <div class="sociall">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-envelope"></i></a>
+            </div>  
+         </div>
+        </div>
+    </div>
+</footer>
+<div style="text-align: center; color: rgb(93, 94, 95);">
+    <p>copyright &copy;2025; all right are reserved</p>
+</div>
+    </body>
+</html>
