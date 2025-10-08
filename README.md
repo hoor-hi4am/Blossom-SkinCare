@@ -14,12 +14,12 @@ It includes product listings, categories, and a responsive design built with **H
 - 📱 Responsive and user-friendly design  
 - 📩 Footer with quick links and social media icons  
 
-## 🧰 Technologies Used
+##  Technologies Used
 - **HTML5**
 - **CSS3**
 - **Bootstrap Icons**
 
-## 🚀 How to View
+##  How to View
 1. Clone the repository:
    ```bash
    git clone https://github.com/hoor-hi4am/Blossom-SkinCare.git
@@ -33,8 +33,5 @@ It includes product listings, categories, and a responsive design built with **H
 * Include backend integration for real product data
 * Make the site fully responsive for mobile devices
 
----
 
-👩‍💻 **Created by:** [Hoor Hesham](https://github.com/hoor-hi4am)
-
-```
+ **Created by:** [Hoor Hesham](https://github.com/hoor-hi4am)
